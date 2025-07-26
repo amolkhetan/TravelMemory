@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: travelmemory-be-config
 data:
-  MONGO_URI: "mongodb+srv://amolkhetan:fhcj60zmtKUsdXcZ@amol-cluster.smlmwf1.mongodb.net/Travelmemory"
+  MONGO_URI: "mongodb://mongo:27017/Travelmemory"
+  #"mongodb+srv://amolkhetan:fhcj60zmtKUsdXcZ@amol-cluster.smlmwf1.mongodb.net/Travelmemory"
